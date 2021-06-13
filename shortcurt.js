@@ -1,6 +1,5 @@
 let money =150;
 let food;
-let active = true;
 if(money >100){
     food = "Biriany";
 }
@@ -10,7 +9,6 @@ else{
 
 // ternary: 
 // condition ? true value : false value
-
 const food2 = money > 100 ? "Biriany" : "alu vorta";
 
 const cssClass = active ? "active" : "inactive";
